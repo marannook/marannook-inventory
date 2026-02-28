@@ -3,7 +3,8 @@ const CATEGORIES = ["All","Arts & Crafts","Sports & Outdoor","Medical/First Aid"
 const CAT_ICONS = {"Arts & Crafts":"🎨","Sports & Outdoor":"⚽","Medical/First Aid":"🩺","Office & Admin":"📋"};
 const USERS = [
   {id:1,name:"Admin",email:"admin@marannook.org",password:"admin123"},
-  {id:2,name:"Staff",email:"staff@marannook.org",password:"staff123"}
+  {id:2,name:"Staff",email:"staff@marannook.org",password:"staff123"},
+  {id:3,name:"Sid Baxter",email:"sid@marannook.org",password:"sidbaxter"}
 ];
 const SEED = [
   {id:1,name:"Acrylic Paint Sets",category:"Arts & Crafts",qty:8,threshold:5,reorderAmt:20,unit:"sets",vendor:"Dick Blick",notes:"",image:null},
